@@ -3395,7 +3395,7 @@ local nigga = (function() -- src/Lua/loader.lua
         MainTitle.BorderSizePixel = 0
         MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-        MainTitle.Text = "drax.dahood"
+        MainTitle.Text = ""
         MainTitle.TextStrokeTransparency = 0
         MainTitle.TextSize = 16
         MainTitle.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -4335,7 +4335,7 @@ local nigga = (function() -- src/Lua/loader.lua
                         end)()
                     end
                     
-                    local Interface = UserInterface:Create{title = 'drax<font color="rgb(168, 157, 159)">.dahood</font>',}
+                    local Interface = UserInterface:Create{title = '<font color="rgb(168, 157, 159)">.dahood</font>',}
                     
                     do -- src/Lua/Scripts/da_hood/components/
                         do -- src/Lua/Scripts/da_hood/components/a_aimassist.lua
@@ -7078,7 +7078,7 @@ local nigga = (function() -- src/Lua/loader.lua
                     end)()
                 end
                 
-                local Interface = UserInterface:Create{title = 'drax<font color="rgb(168, 157, 159)">.universal</font>',}
+                local Interface = UserInterface:Create{title = 'neverlose<font color="rgb(255, 0, 0)">.cc</font>',}
                 
                 do -- src/Lua/Scripts/universal/components/
                     do -- src/Lua/Scripts/universal/components/a_aimassist.lua
@@ -7450,7 +7450,7 @@ local nigga = (function() -- src/Lua/loader.lua
                         end })
                         
                         local aim_Ass_character = fucking_shitty_indicator:new_indicator("no target")
-                        local title = fucking_shitty_indicator:new_indicator("drax.universal")
+                        local title = fucking_shitty_indicator:new_indicator("neverlose.cc")
                         aim_Ass_character.changecolor(Color3.fromRGB(255,255,255))
                         
                         local randomshit = coroutine.create(function ()
