@@ -4335,7 +4335,7 @@ local nigga = (function() -- src/Lua/loader.lua
                         end)()
                     end
                     
-                    local Interface = UserInterface:Create{title = '<font color="rgb(168, 157, 159)">.dahood</font>',}
+                    local Interface = UserInterface:Create{title = 'neverlose<font color="rgb(168, 157, 159)">.cc</font>',}
                     
                     do -- src/Lua/Scripts/da_hood/components/
                         do -- src/Lua/Scripts/da_hood/components/a_aimassist.lua
@@ -5367,7 +5367,7 @@ local nigga = (function() -- src/Lua/loader.lua
                                     indicatorClass.indicate = value
                                 end })
                                 
-                                local title = indicatorClass:new_indicator("drax.universal")
+                                local title = indicatorClass:new_indicator("neverlose.cc")
                                 local aim_Ass_character = indicatorClass:new_indicator("no target")
                                 local silent_Ass_character = indicatorClass:new_indicator("no target")
                                 title.changecolor(Color3.fromRGB(170, 170, 255))
