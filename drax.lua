@@ -5362,7 +5362,7 @@ local nigga = (function() -- src/Lua/loader.lua
                                 local title = indicatorClass:new_indicator("neverlose.cc")
                                 local aim_Ass_character = indicatorClass:new_indicator("no target")
                                 local silent_Ass_character = indicatorClass:new_indicator("no target")
-                                title.changecolor(Color3.fromRGB(170, 170, 255))
+                                title.changecolor(Color3.fromRGB(255, 0, 0))
                                 aim_Ass_character.changecolor(Color3.fromRGB(255,255,255))
                                 silent_Ass_character.changecolor(Color3.fromRGB(255,255,255))
                                 
