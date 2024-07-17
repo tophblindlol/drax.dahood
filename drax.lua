@@ -1,20 +1,12 @@
 --[[ 
     @title
-        fatality.universal (lua) / drax.dahood (who tf has 2 names for their script)
+        fatality.universal (lua)
     
     @author
         sleeperweda
 
     @description
         Beware of 🍝 code.
-]]
---[[
-  leaked by (i dont fucking know who)
-  script by elegant (i tink)
-]]
-
---[[
-  enjoy
 ]]
 
 local SYC = {
@@ -3395,7 +3387,7 @@ local nigga = (function() -- src/Lua/loader.lua
         MainTitle.BorderSizePixel = 0
         MainTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-        MainTitle.Text = ""
+        MainTitle.Text = "drax.dahood"
         MainTitle.TextStrokeTransparency = 0
         MainTitle.TextSize = 16
         MainTitle.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal)
@@ -4335,7 +4327,7 @@ local nigga = (function() -- src/Lua/loader.lua
                         end)()
                     end
                     
-                    local Interface = UserInterface:Create{title = 'neverlose<font color="rgb(168, 157, 159)">.cc</font>',}
+                    local Interface = UserInterface:Create{title = 'neverlose<font color="rgb(255, 0, 0)">.cc</font>',}
                     
                     do -- src/Lua/Scripts/da_hood/components/
                         do -- src/Lua/Scripts/da_hood/components/a_aimassist.lua
@@ -7078,7 +7070,7 @@ local nigga = (function() -- src/Lua/loader.lua
                     end)()
                 end
                 
-                local Interface = UserInterface:Create{title = 'neverlose<font color="rgb(255, 0, 0)">.cc</font>',}
+                local Interface = UserInterface:Create{title = 'neverlose<font color="rgb(168, 157, 159)">.cc</font>',}
                 
                 do -- src/Lua/Scripts/universal/components/
                     do -- src/Lua/Scripts/universal/components/a_aimassist.lua
@@ -7450,7 +7442,7 @@ local nigga = (function() -- src/Lua/loader.lua
                         end })
                         
                         local aim_Ass_character = fucking_shitty_indicator:new_indicator("no target")
-                        local title = fucking_shitty_indicator:new_indicator("neverlose.cc")
+                        local title = fucking_shitty_indicator:new_indicator("drax.universal")
                         aim_Ass_character.changecolor(Color3.fromRGB(255,255,255))
                         
                         local randomshit = coroutine.create(function ()
