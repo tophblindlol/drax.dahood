@@ -5702,7 +5702,7 @@ local Window = Library:Window({Size = UDim2.new(0,580,0,600)}) do
 		--
 		local abc = false 
 		Menu:Keybind({Name = "Menu key", Flag = "MenuKey", Default = Enum.KeyCode.End, Mode = "Toggle", Callback = function() abc = not abc Library:SetOpen(abc) end})
-		Menu:Dropdown({Name = "Notification Position", Flag = "Notification Position", Options = {"Top Left", "Middle"}, Default = "Top Left"})
+		Menu:Dropdown({Name = "Notification Position", Flag = "Notification Position", Options = {"Top Left", "Middle"}, Default = "Middle"})
 		Menu:Label({Centered = true, Name = "Credits: \nPortal : User Interface"})
 		--
 		local CFGList = Cfgs:Dropdown({Name = "Cfg List", Flag = "SettingConfigurationList", Options = {}})
