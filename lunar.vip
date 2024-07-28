@@ -317,7 +317,7 @@ local IgnoreList = {};
 local Tween = {};
 local crosshair_Lines = {}; 
 local crosshair_Outlines = {}; 
-local C_Desync = {Enabled = false, OldPosition = nil, PredictedPosition = nil};
+local C_ = {Enabled = false, OldPosition = nil, PredictedPosition = nil};
 local connections = {};
 local highlights = {};
 local Dropdowns = {}; 
