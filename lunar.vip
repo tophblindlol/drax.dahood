@@ -4806,8 +4806,8 @@ do
 		do 
 			utility.drawings["Tracer"] = utility:drawObject("Line", {})
 			utility.drawings["Aim Assist FOV"] = utility:drawObject("Circle", {Visible = false, Radius = 8, Color = Color3.fromRGB(0,0,0), Filled = false})
-			utility.drawings["Sub"] = utility:drawObject("Text", {Outline = true, Text = "lunar", Color = Color3.new(1, 1, 1), Size = 13})
-			utility.drawings["Domain"] = utility:drawObject("Text", {Outline = true, Text = ".vip", Color = Color3.fromRGB(132, 108, 188), Size = 13})
+			utility.drawings["Sub"] = utility:drawObject("Text", {Outline = true, Text = "zealon", Color = Color3.new(1, 1, 1), Size = 13})
+			utility.drawings["Domain"] = utility:drawObject("Text", {Outline = true, Text = ".forfeit", Color = Color3.fromRGB(132, 108, 188), Size = 13})
 			--
 			for i,v in pairs(bodyClone:GetDescendants()) do 
 				if v:IsA("BasePart") and v.Name ~= "HumanoidRootPart" then 
@@ -6265,6 +6265,7 @@ Library:Notification("WARNING: MAKE SURE YOU ARE USING THE CORRECT ARGUMENT FOR 
 delay(3, function()
 	Library:Notification("Message from finobe\n Fixed several things including: Removing unsupported features, target aim, text on cursor, previous ragebot not working", 10, Library.Accent, flags["Notification Position"])
 end)
+Library:Notification("hero is a nigger!", 3, Library.Accent, 5, Color3.new(1, 0, 0), flags["Notification Position"])
 
 
 
