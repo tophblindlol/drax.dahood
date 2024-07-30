@@ -682,17 +682,17 @@ end
                 Menu.CheckBox("Main", "Target Aim", "Enabled", false, function(a)
                     Settings.Combat.TargetLock.Enabled = a
                 end)
-                Menu.Hotkey("Main", "Target Aim", "Keybind", Enum.KeyCode.T, function(a)
-                    Settings.Combat.TargetLock.KeyBind = a
+                Menu.Hotkey("Main", "Target Aim", "Keybind", Enum.KeyCode.C, function(a)
+                    Settings.Combat.TargetLock.KeyBind = true
                 end)
                 Menu.CheckBox("Main", "Target Aim", "Look At", false, function(a)
-                    Settings.Combat.Stuff.LookAt = a
+                    Settings.Combat.Stuff.LookAt = true
                 end)
                 Menu.CheckBox("Main", "Target Aim", "Spectate", false, function(a)
                     Settings.Combat.Stuff.Spectate = a
                 end)
                 Menu.CheckBox("Main", "Target Aim", "Notification", false, function(a)
-                    Settings.Combat.Stuff.Notification = a
+                    Settings.Combat.Stuff.Notification = true
                 end)
             end
   
